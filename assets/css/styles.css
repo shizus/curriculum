@@ -202,6 +202,15 @@ p {
   overflow: hidden;
   margin-bottom: 2px;
 }
+
+.upper-row {
+  display: flex;
+}
+
+h3.job-title {
+  flex-grow: 1;
+}
+
 .main-wrapper .job-title {
   color: #3F4650;
   font-size: 16px;
@@ -210,9 +219,7 @@ p {
   font-weight: 500;
 }
 .main-wrapper .time {
-  position: absolute;
-  right: 0;
-  top: 0;
+
   color: #97AAC3;
 }
 .main-wrapper .company {
